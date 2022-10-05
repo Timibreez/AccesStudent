@@ -52,7 +52,7 @@ namespace AccesStudent.Models
             Response response = new Response();
             SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM aStudent WHERE ID = '" + id + "' AND IsActive = 1", connection);
             DataTable dt = new DataTable();
-            _ = new Student();
+            Student Students = new Student();
             adapter.Fill(dt);
 
             if (dt.Rows.Count > 0)
