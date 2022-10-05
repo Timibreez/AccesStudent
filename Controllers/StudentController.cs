@@ -23,9 +23,9 @@ namespace AccesStudent.Controllers
         public Response GetAllStudents()
         {
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
-            Response response = new Response();
+            //Response response = new Response();
             DTO dto = new DTO();
-            response = dto.GetAllStudents(connection);
+            Response response = dto.GetAllStudents(connection);
             return response;
         }
 
@@ -35,9 +35,9 @@ namespace AccesStudent.Controllers
         public Response GetStudentById(int id)
         {
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
-            Response response = new Response();
+            //Response response = new Response();
             DTO dto = new DTO();
-            response = dto.GetStudentById(connection, id);
+            Response response = dto.GetStudentById(connection, id);
             return response;
         }
 
