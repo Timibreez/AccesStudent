@@ -53,5 +53,29 @@ namespace AccesStudent.Controllers
             return response;
         }
 
+        [HttpPut]
+        [Route("EditStudent")]
+
+        public Response EditStudent(Student student)
+        {
+            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
+            //Response response = new Response();
+            DTO dto = new DTO();
+            Response response = dto.EditStudent(connection, student);
+            return response;
+        }
+
+        [HttpDelete]
+        [Route("DeleteStudent/{id}")]
+
+        public Response DeleteStudent(int id)
+        {
+            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
+            //Response response = new Response();
+            DTO dto = new DTO();
+            Response response = dto.DeleteStudent(connection, id);
+            return response;
+        }
+
     }
 }

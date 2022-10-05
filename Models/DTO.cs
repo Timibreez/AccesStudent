@@ -101,5 +101,48 @@ namespace AccesStudent.Models
 
             return response;
         }
+        public Response EditStudent(SqlConnection connection, Student student)
+        {
+            Response response = new Response();
+            SqlCommand cmd = new SqlCommand("UPDATE aStudent Name = '" + student.Name + "', Course = '" + student.Course + "' WHERE ID = '"+student.Id+"'", connection);
+            connection.Open();
+
+            int i = cmd.ExecuteNonQuery();
+            connection.Close();
+
+            if (i > 0)
+            {
+                response.StatusCode = 200;
+                response.StatusMessage = "Student Updated";
+            }
+            else
+            {
+                response.StatusCode = 100;
+                response.StatusMessage = "Failed to Update OR You have requested to make zero changes.";
+            }
+
+            return response;
+        }
+
+        public Response DeleteStudent(SqlConnection connection, int id)
+        {
+            Response response = new Response();
+            SqlCommand cmd = new SqlCommand("Delete FROM aStudent WHERE ID = '"+id+"' ", connection);
+            connection.Open();
+            int i = cmd.ExecuteNonQuery();
+            connection.Close();
+
+            if(i > 0)
+            {
+                response.StatusCode = 200;
+                response.StatusMessage = "Student Deleted";
+            }
+            else
+            {
+                response.StatusCode = 100;
+                response.StatusMessage = "Unable to Delete Student. Please ensure this student exist.";
+            }
+            return response;
+        }
     }
 }
