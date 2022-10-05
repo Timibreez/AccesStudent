@@ -78,5 +78,37 @@ namespace AccesStudent.Models
 
             return response;
         }
+
+        public Response AddStudent(SqlConnection connection, Student student)
+        {
+            Response response = new Response();
+            SqlDataAdapter adapter = new SqlDataAdapter("INSERT into aStudent(Name, Course, IsActive, CreatedOn) VALUES('"+ student.Name + "', '"+ student.Course +"', '"+ student.IsActive +"', GETDATE)", connection);
+            DataTable dt = new DataTable();
+            _ = new Student();
+            adapter.Fill(dt);
+
+            if (dt.Rows.Count > 0)
+            {
+                Student student = new Student
+                {
+                    Id = Convert.ToInt32(dt.Rows[0]["Id"]),
+                    Name = Convert.ToString(dt.Rows[0]["Name"]),
+                    Course = Convert.ToString(dt.Rows[0]["Course"]),
+                    IsActive = Convert.ToInt32(dt.Rows[0]["IsActive"])
+                };
+
+                response.StatusCode = 200;
+                response.StatusMessage = "Student Detail available";
+                response.Student = student;
+            }
+            else
+            {
+                response.StatusCode = 100;
+                response.StatusMessage = "No data found";
+                response.Student = null;
+            }
+
+            return response;
+        }
     }
 }
