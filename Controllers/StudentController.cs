@@ -41,5 +41,17 @@ namespace AccesStudent.Controllers
             return response;
         }
 
+        [HttpPost]
+        [Route("AddStudent")]
+
+        public Response AddStudent(Student student)
+        {
+            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
+            //Response response = new Response();
+            DTO dto = new DTO();
+            Response response = dto.AddStudent(connection, student);
+            return response;
+        }
+
     }
 }

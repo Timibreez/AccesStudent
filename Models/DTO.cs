@@ -82,30 +82,21 @@ namespace AccesStudent.Models
         public Response AddStudent(SqlConnection connection, Student student)
         {
             Response response = new Response();
-            SqlDataAdapter adapter = new SqlDataAdapter("INSERT into aStudent(Name, Course, IsActive, CreatedOn) VALUES('"+ student.Name + "', '"+ student.Course +"', '"+ student.IsActive +"', GETDATE)", connection);
-            DataTable dt = new DataTable();
-            _ = new Student();
-            adapter.Fill(dt);
+            SqlCommand cmd = new SqlCommand("INSERT into aStudent(Name, Course, IsActive, CreatedOn) VALUES('"+ student.Name + "', '"+ student.Course +"', '"+ student.IsActive +"', GETDATE)", connection);
+            connection.Open();
 
-            if (dt.Rows.Count > 0)
+            int i = cmd.ExecuteNonQuery();
+            connection.Close();
+
+            if (i > 0)
             {
-                Student student = new Student
-                {
-                    Id = Convert.ToInt32(dt.Rows[0]["Id"]),
-                    Name = Convert.ToString(dt.Rows[0]["Name"]),
-                    Course = Convert.ToString(dt.Rows[0]["Course"]),
-                    IsActive = Convert.ToInt32(dt.Rows[0]["IsActive"])
-                };
-
                 response.StatusCode = 200;
-                response.StatusMessage = "Student Detail available";
-                response.Student = student;
+                response.StatusMessage = "Successfully Added Student Detail";
             }
             else
             {
                 response.StatusCode = 100;
-                response.StatusMessage = "No data found";
-                response.Student = null;
+                response.StatusMessage = "Student Detail Insertion Failed";
             }
 
             return response;
