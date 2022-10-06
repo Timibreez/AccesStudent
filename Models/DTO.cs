@@ -52,7 +52,7 @@ namespace AccesStudent.Models
             Response response = new Response();
             SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM aStudent WHERE ID = '" + id + "' AND IsActive = 1", connection);
             DataTable dt = new DataTable();
-            Student Students = new Student();
+            _ = new Student();
             adapter.Fill(dt);
 
             if (dt.Rows.Count > 0)
@@ -82,7 +82,7 @@ namespace AccesStudent.Models
         public Response AddStudent(SqlConnection connection, Student student)
         {
             Response response = new Response();
-            SqlCommand cmd = new SqlCommand("INSERT into aStudent(Name, Course, IsActive, CreatedOn) VALUES('"+ student.Name + "', '"+ student.Course +"', '"+ student.IsActive +"', GETDATE)", connection);
+            SqlCommand cmd = new SqlCommand("INSERT INTO aStudent(Name, Course, IsActive, CreatedOn) VALUES('"+ student.Name + "', '"+ student.Course +"', '"+ student.IsActive + "', GETDATE())", connection);
             connection.Open();
 
             int i = cmd.ExecuteNonQuery();
@@ -104,7 +104,7 @@ namespace AccesStudent.Models
         public Response EditStudent(SqlConnection connection, Student student)
         {
             Response response = new Response();
-            SqlCommand cmd = new SqlCommand("UPDATE aStudent Name = '" + student.Name + "', Course = '" + student.Course + "' WHERE ID = '"+student.Id+"'", connection);
+            SqlCommand cmd = new SqlCommand("UPDATE aStudent SET Name = '" + student.Name + "', Course = '" + student.Course + "' WHERE ID = '" + student.Id + "'", connection);
             connection.Open();
 
             int i = cmd.ExecuteNonQuery();
