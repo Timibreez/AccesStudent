@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "k+boxCZNjn+OCXqkOPoAvFsedbDMlmB7SXs6R1qzFFL3auGKUi4MK8X2Tpmx1n9DhqPaldc1tv4EiZpX6lp4Iw==",
+  "dgSpecHash": "KXasWeR5zyAWSpVQE+/P9Ui+DzTxdmqnW25M6gpCDzZSxUmt6WxtnPvHKlYDzpCD70UqKeuB9JQIAlmRe5R52Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\timib\\Documents\\Work\\DotNet\\AccesStudent\\AccesStudent.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,8 @@
     "C:\\Users\\timib\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\serilog.aspnetcore\\6.0.1\\serilog.aspnetcore.6.0.1.nupkg.sha512",
+    "C:\\Users\\timib\\.nuget\\packages\\serilog.enrichers.environment\\2.2.0\\serilog.enrichers.environment.2.2.0.nupkg.sha512",
+    "C:\\Users\\timib\\.nuget\\packages\\serilog.enrichers.thread\\3.1.0\\serilog.enrichers.thread.3.1.0.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\serilog.extensions.hosting\\5.0.1\\serilog.extensions.hosting.5.0.1.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\serilog.extensions.logging\\3.1.0\\serilog.extensions.logging.3.1.0.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",

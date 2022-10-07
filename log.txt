@@ -1,0 +1,18 @@
+07-34-2022 OWOLABI 1 Application Started  
+07-34-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+07-34-2022 OWOLABI 1 Hosting environment: "Development"  
+07-34-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+07-34-2022 OWOLABI 9 Request starting HTTP/2.0 GET https://localhost:44398/weatherforecast    
+07-34-2022 OWOLABI 9 Executing endpoint '"AccesStudent.Controllers.WeatherForecastController.Get (AccesStudent)"'  
+07-34-2022 OWOLABI 9 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[AccesStudent.WeatherForecast] Get()" on controller "AccesStudent.Controllers.WeatherForecastController" ("AccesStudent").  
+07-34-2022 OWOLABI 9 Executing ObjectResult, writing value of type '"AccesStudent.WeatherForecast[]"'.  
+07-34-2022 OWOLABI 9 Executed action "AccesStudent.Controllers.WeatherForecastController.Get (AccesStudent)" in 185.9984ms  
+07-34-2022 OWOLABI 9 Executed endpoint '"AccesStudent.Controllers.WeatherForecastController.Get (AccesStudent)"'  
+07-34-2022 OWOLABI 9 Request finished in 688.9425ms 200 application/json; charset=utf-8  
+07-36-2022 OWOLABI 6 Request starting HTTP/1.1 GET https://localhost:44398/api/Student/GetAllStudents    
+07-36-2022 OWOLABI 6 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+07-36-2022 OWOLABI 6 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+07-36-2022 OWOLABI 6 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+07-36-2022 OWOLABI 6 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 593.754ms  
+07-36-2022 OWOLABI 6 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+07-36-2022 OWOLABI 6 Request finished in 605.6458ms 200 application/json; charset=utf-8  

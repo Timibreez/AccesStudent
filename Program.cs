@@ -38,8 +38,10 @@ namespace AccesStudent
         public static void ConfigureLogger()
         {
             Log.Logger = new LoggerConfiguration()
-                .WriteTo.Console()
-                .WriteTo.File(path:@"log.txt")
+                //.WriteTo.Console(outputTemplate: "{Timestamp:dd-mm-yyyy} {MachineName} {ThreadId} {Message} {Exception:1} {NewLine}")
+                .WriteTo.File(path:@"log.txt", outputTemplate: "{Timestamp:dd-mm-yyyy} {MachineName} {ThreadId} {Message} {Exception:1} {NewLine}")
+                .Enrich.WithThreadId()
+                .Enrich.WithMachineName()
                 .CreateLogger();
         }
     }
