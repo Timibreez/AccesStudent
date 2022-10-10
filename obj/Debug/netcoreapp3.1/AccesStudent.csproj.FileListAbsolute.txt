@@ -47,3 +47,13 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Serilo
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

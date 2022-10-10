@@ -47,3 +47,13 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\Acce
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\AccesStudent.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\AccesStudent.pdb
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\AccesStudent.genruntimeconfig.cache
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

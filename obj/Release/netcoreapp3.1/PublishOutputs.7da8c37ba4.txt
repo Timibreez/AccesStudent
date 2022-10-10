@@ -2,7 +2,6 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubT
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\AccesStudent.dll
-C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\AccesStudent.deps.json
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\AccesStudent.runtimeconfig.json
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\AccesStudent.pdb
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.dll
@@ -34,3 +33,4 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubT
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\AccesStudent.deps.json
