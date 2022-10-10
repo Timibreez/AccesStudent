@@ -18,7 +18,7 @@ namespace AccesStudent.Controllers
         }
 
         [HttpGet]
-        [Route("GetAllStudents")]
+        [Route("")]
 
         public Response GetAllStudents()
         {
