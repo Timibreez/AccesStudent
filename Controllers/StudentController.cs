@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Serilog;
+using System;
 using System.Data.SqlClient;
 
 namespace AccesStudent.Controllers
@@ -18,15 +20,29 @@ namespace AccesStudent.Controllers
         }
 
         [HttpGet]
-        [Route("")]
 
         public Response GetAllStudents()
         {
-            SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
-            //Response response = new Response();
-            DTO dto = new DTO();
-            Response response = dto.GetAllStudents(connection);
-            return response;
+            Log.Information("Getallstudents: ");
+            try
+            {
+                Log.Information("connect To Database");
+                SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("ASConnection").ToString());
+                //Response response = new Response();
+                DTO dto = new DTO();
+                Response response = dto.GetAllStudents(connection);
+                return response;
+            }
+            catch(Exception ex)
+            {
+                Log.Error($"{ex.Message}");
+                return new Response{
+                    StatusMessage = $"{ex.Message}",
+
+                };
+                throw;
+            }
+            
         }
 
         [HttpGet]

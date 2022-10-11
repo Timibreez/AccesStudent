@@ -148,3 +148,272 @@
 10-05-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 981.1827ms  
 10-05-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
 10-05-2022 OWOLABI 8 Request finished in 1256.1186ms 200 application/json; charset=utf-8  
+10-21-2022 OWOLABI 1 Application Started  
+10-21-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+10-21-2022 OWOLABI 1 Hosting environment: "Development"  
+10-21-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+10-21-2022 OWOLABI 5 Request starting HTTP/2.0 GET https://localhost:44398/api/student    
+10-21-2022 OWOLABI 5 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-21-2022 OWOLABI 5 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+10-21-2022 OWOLABI 5 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+10-21-2022 OWOLABI 5 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 1276.2528ms  
+10-21-2022 OWOLABI 5 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-21-2022 OWOLABI 5 Request finished in 1599.8212ms 200 application/json; charset=utf-8  
+10-00-2022 OWOLABI 1 Application Started  
+10-00-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+10-00-2022 OWOLABI 1 Hosting environment: "Development"  
+10-00-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+10-00-2022 OWOLABI 9 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+10-00-2022 OWOLABI 9 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-00-2022 OWOLABI 9 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+10-00-2022 OWOLABI 9 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+10-00-2022 OWOLABI 9 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 580.9546ms  
+10-00-2022 OWOLABI 9 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-00-2022 OWOLABI 9 Request finished in 772.4721ms 200 application/json; charset=utf-8  
+10-38-2022 OWOLABI 1 Application Started  
+10-38-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+10-38-2022 OWOLABI 1 Hosting environment: "Development"  
+10-38-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+10-38-2022 OWOLABI 9 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+10-38-2022 OWOLABI 9 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-38-2022 OWOLABI 9 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+10-38-2022 OWOLABI 9 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+10-38-2022 OWOLABI 9 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 531.882ms  
+10-38-2022 OWOLABI 9 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+10-38-2022 OWOLABI 9 Request finished in 688.1045ms 200 application/json; charset=utf-8  
+10-38-2022 OWOLABI 8 Request starting HTTP/1.1 GET https://localhost:44398/api/Student/GetStudentById/2    
+10-38-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)"'  
+10-38-2022 OWOLABI 8 Route matched with "{action = \"GetStudentById\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetStudentById(Int32)" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+10-38-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+10-38-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)" in 24.3472ms  
+10-38-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)"'  
+10-38-2022 OWOLABI 8 Request finished in 40.2458ms 200 application/json; charset=utf-8  
+11-25-2022 OWOLABI 1 Application Started  
+11-25-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-25-2022 OWOLABI 1 Hosting environment: "Development"  
+11-25-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-25-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-25-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-25-2022 OWOLABI 8 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-25-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-25-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 1482.3571ms  
+11-25-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-25-2022 OWOLABI 8 Request finished in 1995.5759ms 200 application/json; charset=utf-8  
+11-28-2022 OWOLABI 1 Application Started  
+11-28-2022 OWOLABI 1 Unable to start Kestrel. System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+ 
+11-37-2022 OWOLABI 1 Application Started  
+11-37-2022 OWOLABI 1 Now listening on: "https://localhost:5004"  
+11-37-2022 OWOLABI 1 Now listening on: "http://localhost:5000"  
+11-37-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-37-2022 OWOLABI 1 Hosting environment: "Development"  
+11-37-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-41-2022 OWOLABI 13 Application is shutting down...  
+11-41-2022 OWOLABI 1 Application Started  
+11-41-2022 OWOLABI 1 Now listening on: "https://localhost:5004"  
+11-41-2022 OWOLABI 1 Now listening on: "http://localhost:5000"  
+11-41-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-41-2022 OWOLABI 1 Hosting environment: "Development"  
+11-41-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-41-2022 OWOLABI 11 Application is shutting down...  
+11-41-2022 OWOLABI 1 Application Started  
+11-41-2022 OWOLABI 1 Now listening on: "https://localhost:5004"  
+11-41-2022 OWOLABI 1 Now listening on: "http://localhost:5000"  
+11-41-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-41-2022 OWOLABI 1 Hosting environment: "Development"  
+11-41-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-43-2022 OWOLABI 14 Application is shutting down...  
+11-44-2022 OWOLABI 1 Application Started  
+11-44-2022 OWOLABI 1 Now listening on: "https://localhost:5004"  
+11-44-2022 OWOLABI 1 Now listening on: "http://localhost:5000"  
+11-44-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-44-2022 OWOLABI 1 Hosting environment: "Development"  
+11-44-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-59-2022 OWOLABI 28 Application is shutting down...  
+11-10-2022 OWOLABI 1 Application Started  
+11-10-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-10-2022 OWOLABI 1 Hosting environment: "Development"  
+11-10-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-10-2022 OWOLABI 4 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-10-2022 OWOLABI 4 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-10-2022 OWOLABI 4 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-10-2022 OWOLABI 4 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-10-2022 OWOLABI 4 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 384.4867ms  
+11-10-2022 OWOLABI 4 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-10-2022 OWOLABI 4 Request finished in 557.6737ms 200 application/json; charset=utf-8  
+11-22-2022 OWOLABI 1 Application Started  
+11-22-2022 OWOLABI 1 Now listening on: "https://localhost:7001"  
+11-22-2022 OWOLABI 1 Now listening on: "http://localhost:7000"  
+11-22-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-22-2022 OWOLABI 1 Hosting environment: "Development"  
+11-22-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-23-2022 OWOLABI 11 Application is shutting down...  
+11-23-2022 OWOLABI 1 Application Started  
+11-23-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-23-2022 OWOLABI 1 Hosting environment: "Development"  
+11-23-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-23-2022 OWOLABI 10 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-23-2022 OWOLABI 10 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-23-2022 OWOLABI 10 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-23-2022 OWOLABI 10 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-23-2022 OWOLABI 10 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 538.5422ms  
+11-23-2022 OWOLABI 10 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-23-2022 OWOLABI 10 Request finished in 759.7722ms 200 application/json; charset=utf-8  
+11-23-2022 OWOLABI 12 Request starting HTTP/1.1 GET http://localhost:65279/    
+11-23-2022 OWOLABI 12 Request finished in 13.8099ms 307   
+11-23-2022 OWOLABI 12 Request starting HTTP/2.0 GET https://localhost:44398/    
+11-23-2022 OWOLABI 12 Request finished in 2.1997ms 404   
+11-24-2022 OWOLABI 15 Request starting HTTP/2.0 GET https://localhost:44398/api/Student/getallstudents    
+11-24-2022 OWOLABI 15 Request finished in 12.1807ms 404   
+11-24-2022 OWOLABI 14 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-24-2022 OWOLABI 14 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-24-2022 OWOLABI 14 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-24-2022 OWOLABI 14 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-24-2022 OWOLABI 14 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 9.4146ms  
+11-24-2022 OWOLABI 14 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-24-2022 OWOLABI 14 Request finished in 16.2048ms 200 application/json; charset=utf-8  
+11-24-2022 OWOLABI 16 Request starting HTTP/1.1 GET http://localhost:65279/    
+11-24-2022 OWOLABI 16 Request finished in 9.761ms 307   
+11-24-2022 OWOLABI 21 Request starting HTTP/2.0 GET https://localhost:44398/    
+11-24-2022 OWOLABI 21 Request finished in 8.0237ms 404   
+11-24-2022 OWOLABI 16 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-24-2022 OWOLABI 16 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-24-2022 OWOLABI 16 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-24-2022 OWOLABI 16 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-24-2022 OWOLABI 16 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 3.474ms  
+11-24-2022 OWOLABI 16 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-24-2022 OWOLABI 16 Request finished in 7.3302ms 200 application/json; charset=utf-8  
+11-45-2022 OWOLABI 1 Application Started  
+11-45-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-45-2022 OWOLABI 1 Hosting environment: "Development"  
+11-45-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-45-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-45-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-45-2022 OWOLABI 8 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-45-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-45-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 775.0883ms  
+11-45-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-45-2022 OWOLABI 8 Request finished in 1052.3532ms 200 application/json; charset=utf-8  
+11-45-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/api/Student/getstudentbyid/1    
+11-45-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)"'  
+11-45-2022 OWOLABI 8 Route matched with "{action = \"GetStudentById\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetStudentById(Int32)" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-45-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-45-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)" in 56.4483ms  
+11-45-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetStudentById (AccesStudent)"'  
+11-45-2022 OWOLABI 8 Request finished in 106.443ms 200 application/json; charset=utf-8  
+11-45-2022 OWOLABI 13 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-45-2022 OWOLABI 13 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-45-2022 OWOLABI 13 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-45-2022 OWOLABI 13 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-45-2022 OWOLABI 13 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 11.9976ms  
+11-45-2022 OWOLABI 13 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-45-2022 OWOLABI 13 Request finished in 25.4134ms 200 application/json; charset=utf-8  
+11-45-2022 OWOLABI 14 Request starting HTTP/2.0 GET https://localhost:44398/swagger    
+11-45-2022 OWOLABI 14 Request finished in 26.5586ms 404   
+11-46-2022 OWOLABI 18 Request starting HTTP/2.0 GET https://localhost:44398/api/swagger    
+11-46-2022 OWOLABI 18 Request finished in 4.4682ms 404   
+11-46-2022 OWOLABI 20 Request starting HTTP/2.0 GET https://localhost:44398/api/student/swagger    
+11-46-2022 OWOLABI 20 Request finished in 18.8641ms 404   
+11-47-2022 OWOLABI 19 Request starting HTTP/2.0 GET https://localhost:44398/swagger    
+11-47-2022 OWOLABI 19 Request finished in 23.123ms 404   
+11-51-2022 OWOLABI 1 Application Started  
+11-51-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-51-2022 OWOLABI 1 Hosting environment: "Development"  
+11-51-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-51-2022 OWOLABI 9 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-52-2022 OWOLABI 1 Application Started  
+11-52-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-52-2022 OWOLABI 1 Hosting environment: "Development"  
+11-52-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-52-2022 OWOLABI 10 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-52-2022 OWOLABI 10 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-52-2022 OWOLABI 10 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-52-2022 OWOLABI 10 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-52-2022 OWOLABI 10 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 418.0112ms  
+11-52-2022 OWOLABI 10 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-52-2022 OWOLABI 10 Request finished in 651.4124ms 200 application/json; charset=utf-8  
+11-52-2022 OWOLABI 10 Request starting HTTP/2.0 GET https://localhost:44398/swagger    
+11-52-2022 OWOLABI 10 Request finished in 19.2635ms 301   
+11-52-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/swagger/index.html    
+11-52-2022 OWOLABI 5 Request finished in 467.8735ms 200 text/html;charset=utf-8  
+11-52-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/swagger/swagger-ui.css    
+11-52-2022 OWOLABI 7 Request starting HTTP/2.0 GET https://localhost:44398/swagger/swagger-ui-bundle.js    
+11-52-2022 OWOLABI 4 Request starting HTTP/2.0 GET https://localhost:44398/swagger/swagger-ui-standalone-preset.js    
+11-52-2022 OWOLABI 10 Request starting HTTP/2.0 GET https://localhost:44398/_framework/aspnetcore-browser-refresh.js    
+11-52-2022 OWOLABI 10 Request finished in 5.2072ms 200 application/javascript; charset=utf-8  
+11-52-2022 OWOLABI 10 Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'  
+11-52-2022 OWOLABI 9 Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'  
+11-52-2022 OWOLABI 10 Request finished in 84.0497ms 200 text/css  
+11-52-2022 OWOLABI 9 Request finished in 83.6134ms 200 application/javascript  
+11-52-2022 OWOLABI 18 Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'  
+11-52-2022 OWOLABI 18 Request finished in 86.2509ms 200 application/javascript  
+11-52-2022 OWOLABI 9 Request starting HTTP/2.0 GET https://localhost:44398/_vs/browserLink    
+11-52-2022 OWOLABI 16 Request finished in 307.2125ms 200 text/javascript; charset=UTF-8  
+11-52-2022 OWOLABI 16 Request starting HTTP/2.0 GET https://localhost:44398/swagger/v1/swagger.json    
+11-52-2022 OWOLABI 15 Request starting HTTP/2.0 GET https://localhost:44398/swagger/favicon-32x32.png    
+11-52-2022 OWOLABI 15 Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'  
+11-52-2022 OWOLABI 15 Request finished in 1.968ms 200 image/png  
+11-52-2022 OWOLABI 16 Request finished in 195.3517ms 200 application/json;charset=utf-8  
+11-53-2022 OWOLABI 1 Application Started  
+11-53-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-53-2022 OWOLABI 1 Hosting environment: "Development"  
+11-53-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-53-2022 OWOLABI 7 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-53-2022 OWOLABI 7 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-53-2022 OWOLABI 7 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-53-2022 OWOLABI 7 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-53-2022 OWOLABI 7 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 424.1306ms  
+11-53-2022 OWOLABI 7 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-53-2022 OWOLABI 7 Request finished in 670.1386ms 200 application/json; charset=utf-8  
+11-53-2022 OWOLABI 7 Request starting HTTP/2.0 GET https://localhost:44398/swagger/index.html    
+11-53-2022 OWOLABI 5 Request finished in 239.7127ms 200 text/html;charset=utf-8  
+11-53-2022 OWOLABI 14 Request starting HTTP/2.0 GET https://localhost:44398/_framework/aspnetcore-browser-refresh.js    
+11-53-2022 OWOLABI 14 Request finished in 4.9637ms 200 application/javascript; charset=utf-8  
+11-53-2022 OWOLABI 15 Request starting HTTP/2.0 GET https://localhost:44398/_vs/browserLink    
+11-53-2022 OWOLABI 10 Request finished in 36.4725ms 200 text/javascript; charset=UTF-8  
+11-53-2022 OWOLABI 10 Request starting HTTP/2.0 GET https://localhost:44398/swagger/v1/swagger.json    
+11-53-2022 OWOLABI 10 Request finished in 187.1384ms 200 application/json;charset=utf-8  
+11-56-2022 OWOLABI 22 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-56-2022 OWOLABI 22 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-56-2022 OWOLABI 22 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-56-2022 OWOLABI 22 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-56-2022 OWOLABI 22 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 14.1535ms  
+11-56-2022 OWOLABI 22 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-56-2022 OWOLABI 22 Request finished in 30.2846ms 200 application/json; charset=utf-8  
+11-18-2022 OWOLABI 1 Application Started  
+11-18-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-18-2022 OWOLABI 1 Hosting environment: "Development"  
+11-18-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-18-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-18-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-18-2022 OWOLABI 8 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-18-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-18-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 978.7587ms  
+11-18-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-18-2022 OWOLABI 8 Request finished in 1290.1529ms 200 application/json; charset=utf-8  
+11-26-2022 OWOLABI 1 Application Started  
+11-26-2022 OWOLABI 1 Application started. Press Ctrl+C to shut down.  
+11-26-2022 OWOLABI 1 Hosting environment: "Development"  
+11-26-2022 OWOLABI 1 Content root path: "C:\Users\timib\Documents\Work\DotNet\AccesStudent"  
+11-26-2022 OWOLABI 8 Request starting HTTP/2.0 GET https://localhost:44398/api/Student    
+11-26-2022 OWOLABI 8 Executing endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-26-2022 OWOLABI 8 Route matched with "{action = \"GetAllStudents\", controller = \"Student\"}". Executing controller action with signature "AccesStudent.Models.Response GetAllStudents()" on controller "AccesStudent.Controllers.StudentController" ("AccesStudent").  
+11-26-2022 OWOLABI 8 Getallstudents:   
+11-26-2022 OWOLABI 8 connect To Database  
+11-26-2022 OWOLABI 8 Executing ObjectResult, writing value of type '"AccesStudent.Models.Response"'.  
+11-26-2022 OWOLABI 8 Executed action "AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)" in 716.2556ms  
+11-26-2022 OWOLABI 8 Executed endpoint '"AccesStudent.Controllers.StudentController.GetAllStudents (AccesStudent)"'  
+11-26-2022 OWOLABI 8 Request finished in 969.4293ms 200 application/json; charset=utf-8  

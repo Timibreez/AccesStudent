@@ -4,10 +4,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\AccessBank\Deployed</_PublishTargetUrl>
-    <History>True|2022-10-10T19:07:10.7372647Z;True|2022-10-10T20:00:34.2823412+01:00;True|2022-10-10T19:39:29.9659670+01:00;False|2022-10-10T19:34:56.0879968+01:00;True|2022-10-10T19:31:10.9616085+01:00;False|2022-10-10T19:12:04.1255193+01:00;True|2022-10-10T19:08:20.3989734+01:00;False|2022-10-10T19:07:02.5354412+01:00;True|2022-10-10T18:36:26.3665131+01:00;</History>
-    <LastFailureDetails />
     <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Deployed</_PublishTargetUrl>
+    <History>True|2022-10-11T16:36:24.1879630Z;True|2022-10-11T17:28:41.7531869+01:00;True|2022-10-11T17:19:51.5916721+01:00;True|2022-10-11T16:59:58.2639478+01:00;False|2022-10-11T16:58:53.6657170+01:00;True|2022-10-11T10:54:18.3496952+01:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="ASConnection">

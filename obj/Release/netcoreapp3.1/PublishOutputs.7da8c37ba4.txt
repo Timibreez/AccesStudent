@@ -16,6 +16,7 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubT
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.AspNetCore.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.Enrichers.Environment.dll
@@ -27,6 +28,9 @@ C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubT
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.Sinks.Console.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.Sinks.Debug.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Serilog.Sinks.File.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SqlClient.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
 C:\Users\timib\Documents\Work\DotNet\AccesStudent\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
