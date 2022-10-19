@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8lnYIy+nO7D+5//sOZFA3Naf/XXj7h7CoAmgSomnLP5NOZJGMm6IjZeIamI1h9180aCKTZxLHNuFweUIrh0uXw==",
+  "dgSpecHash": "0GuaH/GfsDPZdDV8srkL/c/NU29XLSPWGq42ZNJqccG5gVP6M/6b8Hd07lcwLqujSAVupKlp5KIKnjIEKDUW6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\timib\\Documents\\Work\\DotNet\\AccesStudent\\AccesStudent.csproj",
+  "projectFilePath": "C:\\Users\\timib\\Documents\\Work\\AccessBank\\AccesStudent\\AccesStudent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\timib\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\timib\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

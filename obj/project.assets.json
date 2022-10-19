@@ -2304,19 +2304,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\timib\\.nuget\\packages\\": {}
+    "C:\\Users\\timib\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timib\\Documents\\Work\\DotNet\\AccesStudent\\AccesStudent.csproj",
+      "projectUniqueName": "C:\\Users\\timib\\Documents\\Work\\AccessBank\\AccesStudent\\AccesStudent.csproj",
       "projectName": "AccesStudent",
-      "projectPath": "C:\\Users\\timib\\Documents\\Work\\DotNet\\AccesStudent\\AccesStudent.csproj",
+      "projectPath": "C:\\Users\\timib\\Documents\\Work\\AccessBank\\AccesStudent\\AccesStudent.csproj",
       "packagesPath": "C:\\Users\\timib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timib\\Documents\\Work\\DotNet\\AccesStudent\\obj\\",
+      "outputPath": "C:\\Users\\timib\\Documents\\Work\\AccessBank\\AccesStudent\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\timib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2324,6 +2329,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

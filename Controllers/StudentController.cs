@@ -21,6 +21,7 @@ namespace AccesStudent.Controllers
 
         [HttpGet]
 
+        // Get information of all students
         public Response GetAllStudents()
         {
             Log.Information("Getallstudents: ");
@@ -45,6 +46,7 @@ namespace AccesStudent.Controllers
             
         }
 
+        // Get student by ID
         [HttpGet]
         [Route("GetStudentById/{id}")]
 
@@ -57,6 +59,7 @@ namespace AccesStudent.Controllers
             return response;
         }
 
+        //Add a new student 
         [HttpPost]
         [Route("AddStudent")]
 
@@ -69,6 +72,7 @@ namespace AccesStudent.Controllers
             return response;
         }
 
+        //Update an existing student
         [HttpPut]
         [Route("EditStudent")]
 
@@ -81,6 +85,7 @@ namespace AccesStudent.Controllers
             return response;
         }
 
+        // Delete a student by ID
         [HttpDelete]
         [Route("DeleteStudent/{id}")]
 
